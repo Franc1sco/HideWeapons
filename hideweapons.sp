@@ -25,7 +25,7 @@
 public Plugin myinfo = {
 	name = "SM Hide Weapons",
 	author = "Franc1sco franug",
-	description = "",
+	description = "Simple plugin for hide weapons in the back.",
 	version = VERSION,
 	url = "http://steamcommunity.com/id/franug"
 };
