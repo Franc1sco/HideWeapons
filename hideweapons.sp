@@ -33,6 +33,7 @@ public Plugin myinfo = {
 public void OnPluginStart()
 {
 	CreateConVar("sm_hideweapons_version", VERSION, "Plugin version", FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY);
+	
 	for (int i = 1; i <= MaxClients; i++)
 	{
 		if (IsClientInGame(i))
